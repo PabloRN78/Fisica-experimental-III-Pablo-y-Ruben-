@@ -236,7 +236,6 @@ def media_ponderada(valores, errores):
 """
 DETERMINACIÓN DE CONSTANTES ELÁSTICAS:
 """
-"""
 #Muelle 1:
 print('Muelle 1')
 
@@ -290,8 +289,4 @@ l4 = K4[r'$\Delta x (m)$'].values
 K_4 = Experimento(m4, l4, m_err, l_err, r'$\Delta x$ frente a m (Muelle 4)', '$m (kg)$', r'$\Delta x (m)$')
 K_4.lineal()
 K_4.fig.savefig('muelle4.pdf')
-"""
 
-"""
-FRECUENCIA CARACTERÍSTICA:
-"""
